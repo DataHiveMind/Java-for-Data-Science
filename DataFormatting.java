@@ -22,7 +22,6 @@ public class DataFormatting {
     }
 
 
-
     public static void main(String[] args) {
         // Univariate arrays
         String[] names = {"John Doe", "Jane Jones", "Bill Smith", "Betsy Garcia"};
@@ -37,6 +36,7 @@ public class DataFormatting {
         double[][] peopledata = {{123, 0, 1994, 4, 3}, {234, 1, 1948, 8, 4}};
 
         RealMatrix matrix = new Array2DRowRealMatrix(peopledata);
+        System.out.println("Test1");
 
     }
 }
